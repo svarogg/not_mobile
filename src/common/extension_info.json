@@ -1,0 +1,16 @@
+{
+  "content_scripts": [],
+  "description": "Redirects mobile pages to their desktop version",
+  "creator": "Mike Zak",
+  "background_scripts": [
+    "main.js"
+  ],
+  "homepage_url": "http://everythingisvoid.com/",
+  "version": "0.1.0",
+  "browser_button": {
+    "caption": "Redirect to Desktop Version",
+    "icon": "icons/button.png",
+    "tooltipText": "Redirect to Desktop Version"
+  },
+  "name": "NotMobile!"
+}
